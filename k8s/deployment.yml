@@ -14,14 +14,6 @@ spec:
     spec:
       containers:
       - name: sample-minikube
-        image: sample-minikube:latest
+        image: gakalmar/sample-minikube:latest
         ports:
         - containerPort: 5000
-        
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
